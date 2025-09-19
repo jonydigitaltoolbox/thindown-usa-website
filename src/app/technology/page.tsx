@@ -65,7 +65,7 @@ export default function TechnologyPage() {
             <div className="relative">
               <div className="aspect-video relative rounded-xl overflow-hidden shadow-strong">
                 <Image
-                  src="/images/technology/fabric-microscope.jpg"
+                  src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&q=80"
                   alt="THINDOWN fabric under microscope showing fiber structure"
                   fill
                   className="object-cover"
@@ -139,7 +139,7 @@ export default function TechnologyPage() {
                 <div className="space-y-4">
                   <div className="aspect-square relative rounded-lg overflow-hidden">
                     <Image
-                      src="/images/technology/down-clusters.jpg"
+                      src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80"
                       alt="Natural down clusters"
                       fill
                       className="object-cover"
@@ -148,7 +148,7 @@ export default function TechnologyPage() {
                   </div>
                   <div className="aspect-square relative rounded-lg overflow-hidden">
                     <Image
-                      src="/images/technology/fabric-structure.jpg"
+                      src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&q=80"
                       alt="THINDOWN fabric structure"
                       fill
                       className="object-cover"
@@ -159,7 +159,7 @@ export default function TechnologyPage() {
                 <div className="space-y-4 mt-8">
                   <div className="aspect-square relative rounded-lg overflow-hidden">
                     <Image
-                      src="/images/technology/thermal-image.jpg"
+                      src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80"
                       alt="Thermal imaging of THINDOWN"
                       fill
                       className="object-cover"
@@ -168,7 +168,7 @@ export default function TechnologyPage() {
                   </div>
                   <div className="aspect-square relative rounded-lg overflow-hidden">
                     <Image
-                      src="/images/technology/manufacturing.jpg"
+                      src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80"
                       alt="Manufacturing process"
                       fill
                       className="object-cover"

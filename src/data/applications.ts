@@ -20,7 +20,7 @@ export const applicationCategories: ApplicationCategory[] = [
       'Base layer insulation',
       'Extreme weather gear'
     ],
-    image: '/images/applications/outdoor-apparel.jpg'
+    image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&q=80'
   },
   {
     id: 'fashion-lifestyle',
@@ -41,7 +41,7 @@ export const applicationCategories: ApplicationCategory[] = [
       'Urban lifestyle wear',
       'Luxury accessories'
     ],
-    image: '/images/applications/fashion-lifestyle.jpg'
+    image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80'
   },
   {
     id: 'footwear',
@@ -62,7 +62,7 @@ export const applicationCategories: ApplicationCategory[] = [
       'Fashion boots with insulation',
       'Specialty footwear applications'
     ],
-    image: '/images/applications/footwear.jpg'
+    image: 'https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&q=80'
   },
   {
     id: 'accessories',
@@ -83,7 +83,7 @@ export const applicationCategories: ApplicationCategory[] = [
       'Hand and foot warmers',
       'Specialty protective gear'
     ],
-    image: '/images/applications/accessories.jpg'
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80'
   },
   {
     id: 'military',
@@ -104,7 +104,7 @@ export const applicationCategories: ApplicationCategory[] = [
       'Sleeping systems and shelters',
       'Specialized protective equipment'
     ],
-    image: '/images/applications/military.jpg'
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80'
   },
   {
     id: 'home-textiles',
@@ -125,6 +125,6 @@ export const applicationCategories: ApplicationCategory[] = [
       'Throw blankets',
       'Home decor applications'
     ],
-    image: '/images/applications/home-textiles.jpg'
+    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80'
   }
 ];

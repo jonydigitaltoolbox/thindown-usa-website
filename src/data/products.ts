@@ -26,7 +26,7 @@ export const productLines: ProductLine[] = [
       temperature: 'Down to -20°F (-29°C)',
       certifications: ['RDS', 'OEKO-TEX Standard 100', 'CPSIA']
     },
-    image: '/images/products/thindown-classic.jpg',
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80',
     isRecycled: false
   },
   {
@@ -54,7 +54,7 @@ export const productLines: ProductLine[] = [
       temperature: 'Down to -10°F (-23°C)',
       certifications: ['GRS', 'OEKO-TEX Standard 100', 'CPSIA']
     },
-    image: '/images/products/thindown-recycled.jpg',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&q=80',
     isRecycled: true
   },
   {
@@ -82,7 +82,7 @@ export const productLines: ProductLine[] = [
       temperature: 'Down to -15°F (-26°C)',
       certifications: ['OEKO-TEX Standard 100', 'CPSIA']
     },
-    image: '/images/products/thindown-active.jpg',
+    image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&q=80',
     isRecycled: false
   },
   {
@@ -110,7 +110,7 @@ export const productLines: ProductLine[] = [
       temperature: 'Down to -5°F (-21°C)',
       certifications: ['OEKO-TEX Standard 100', 'CPSIA']
     },
-    image: '/images/products/thindown-flex.jpg',
+    image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&q=80',
     isRecycled: false,
     isStretch: true
   },
@@ -139,7 +139,7 @@ export const productLines: ProductLine[] = [
       temperature: 'Down to -40°F (-40°C)',
       certifications: ['Berry Amendment', 'MIL-SPEC', 'CPSIA']
     },
-    image: '/images/products/thindown-military.jpg',
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80',
     isRecycled: false
   },
   {
@@ -167,7 +167,7 @@ export const productLines: ProductLine[] = [
       temperature: 'Comfort range optimization',
       certifications: ['OEKO-TEX Standard 100', 'CPSIA', 'CertiPUR-US']
     },
-    image: '/images/products/thindown-home.jpg',
+    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80',
     isRecycled: false
   }
 ];

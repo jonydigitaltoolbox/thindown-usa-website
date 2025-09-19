@@ -88,14 +88,14 @@ export default function HomePage() {
 
             <div className="relative">
               <div className="aspect-square relative rounded-2xl overflow-hidden shadow-strong">
-                <Image
-                  src="/images/hero/thindown-hero.svg"
-                  alt="THINDOWN fabric close-up showing revolutionary down technology"
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
+                  <Image
+                    src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80"
+                    alt="THINDOWN fabric close-up showing revolutionary down technology"
+                    fill
+                    className="object-cover"
+                    priority
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
                 <div className="absolute inset-0 bg-gradient-to-tr from-primary-900/20 to-transparent" />
               </div>
               
@@ -259,13 +259,13 @@ export default function HomePage() {
 
             <div className="relative">
               <div className="aspect-photo relative rounded-xl overflow-hidden">
-                <Image
-                  src="/images/facility/ny-manufacturing.svg"
-                  alt="THINDOWN USA manufacturing facility in New York"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
+                  <Image
+                    src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80"
+                    alt="THINDOWN USA manufacturing facility in New York"
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
               </div>
             </div>
           </div>

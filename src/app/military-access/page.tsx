@@ -150,7 +150,7 @@ export default function MilitaryAccessPage() {
             <div className="relative">
               <div className="aspect-square relative rounded-2xl overflow-hidden shadow-strong">
                 <Image
-                  src="/images/military/military-hero.jpg"
+                  src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80"
                   alt="Military personnel using THINDOWN insulated gear"
                   fill
                   className="object-cover"
