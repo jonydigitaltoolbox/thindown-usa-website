@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables for fonts */
+:root {
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-orbitron: 'Orbitron', system-ui, sans-serif;
+  --font-poppins: 'Poppins', system-ui, sans-serif;
+}
+
+/* Base styles */
+@layer base {
+  html {
+    font-family: var(--font-poppins);
+  }
+  
+  .font-display {
+    font-family: var(--font-orbitron);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+  
+  .font-body {
+    font-family: var(--font-inter);
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Focus styles */
+  :focus {
+    outline: 2px solid theme('colors.primary.500');
+    outline-offset: 2px;
+  }
+  
+  /* Selection styles */
+  ::selection {
+    background-color: theme('colors.primary.100');
+    color: theme('colors.primary.900');
+  }
+}
+
+/* Component styles */
+@layer components {
+  /* Hero section gradient background */
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      rgba(14, 165, 233, 0.1) 0%,
+      rgba(250, 204, 21, 0.1) 100%
+    );
+  }
+  
+  /* Glass morphism effect */
+  .glass {
+    backdrop-filter: blur(16px);
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Animated gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-secondary-400 bg-clip-text text-transparent;
+  }
+  
+  /* Container with consistent padding */
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Section spacing */
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+  
+  /* Card hover effects */
+  .card-hover {
+    @apply transition-all duration-300 ease-in-out hover:shadow-strong hover:-translate-y-1;
+  }
+  
+  /* Button hover effects */
+  .btn-hover {
+    @apply transition-all duration-200 ease-in-out transform hover:scale-105 active:scale-95;
+  }
+  
+  /* Text balance for headings */
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Prose styles for content */
+  .prose-custom {
+    @apply prose prose-neutral max-w-none;
+    @apply prose-headings:font-display prose-headings:text-neutral-900;
+    @apply prose-p:text-neutral-600 prose-p:leading-relaxed;
+    @apply prose-a:text-primary-600 prose-a:no-underline hover:prose-a:underline;
+    @apply prose-strong:text-neutral-900;
+    @apply prose-ul:text-neutral-600 prose-ol:text-neutral-600;
+    @apply prose-li:my-1;
+  }
+}
+
+/* Utility styles */
+@layer utilities {
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Custom animation delays */
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+  
+  /* Text shadow utilities */
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Safe area utilities for mobile */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+  
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  /* Aspect ratio utilities */
+  .aspect-video {
+    aspect-ratio: 16 / 9;
+  }
+  
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+  
+  .aspect-photo {
+    aspect-ratio: 4 / 3;
+  }
+}
